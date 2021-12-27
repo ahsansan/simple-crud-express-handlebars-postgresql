@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  {{#blogs}}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{this.title}}</title>
+    <link rel="stylesheet" href="/public/style/style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="/public/images/logo-kecil.png">
+        <ul>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a href="/contact-form">Contact Me</a>
+      </div>
+    </nav>
+    <!-- Blog -->
+    <div class="blog-detail">
+      <div class="blog-detail-container">
+        <h1>{{this.title}}</h1>
+        <div class="author">12 Jul 2021 22:30 WIB | Maulana Ahsan</div>
+        <img src="/public/images/blog-img-detail.png" alt="detail" />
+        <p>
+          {{this.content}}
+        </p>
+      </div>
+    </div>
+    <footer>
+      <i>Copyright © 2021 | <a href="/index" style="text-decoration: none;color:#000">Muhammad Maulana Ahsan</a></i>
+    </footer>
+  </body>
+  {{/blogs}}
+</html>

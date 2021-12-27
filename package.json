@@ -1,0 +1,16 @@
+{
+  "name": "web-personal",
+  "version": "1.0.0",
+  "description": "mencoba meng onlinekan web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maulana Ahsan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "pg": "^8.7.1"
+  }
+}
